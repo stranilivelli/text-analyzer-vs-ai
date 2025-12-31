@@ -44,7 +44,7 @@ except Exception as e:
 # 5. Test chiamata API
 try:
     print("\n⏳ Testando chiamata API...")
-    model = genai.GenerativeModel('gemini-1.5-flash')
+    model = genai.GenerativeModel('gemini-flash-latest')
     response = model.generate_content("Rispondi solo con 'OK'")
     print(f"✓ Risposta ricevuta: {response.text}")
     print("\n✅ TUTTO FUNZIONA! Gemini è configurato correttamente.")

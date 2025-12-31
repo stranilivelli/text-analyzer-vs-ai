@@ -114,7 +114,14 @@ h6 {
 }
 
 .logo:hover {
-    opacity: 0.8;
+    opacity: 0.9;
+}
+
+a.logo-link {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    text-decoration: none;
 }
 
 .logo-img {
@@ -465,7 +472,7 @@ textarea:focus {
 .card h2,
 .card h3 {
     margin-bottom: var(--space-5);
-    color: var(--white);
+    color: var(--gray-900);
 }
 
 /* Score Card */
@@ -953,12 +960,12 @@ footer {
         grid-template-columns: 1fr;
         gap: var(--space-8);
     }
-    
+
     .comparison-column {
         border-bottom: 2px solid var(--gray-200);
         padding-bottom: var(--space-6);
     }
-    
+
     .comparison-column:last-child {
         border-bottom: none;
         padding-bottom: 0;
@@ -969,11 +976,11 @@ footer {
     .semantic-grid {
         grid-template-columns: 1fr;
     }
-    
+
     .summary-grid {
         grid-template-columns: 1fr;
     }
-    
+
     .column-header h2 {
         font-size: var(--text-xl);
     }

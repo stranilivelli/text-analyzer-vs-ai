@@ -164,7 +164,7 @@ def analyze_with_gemini(text):
     
     try:
         # Configura il modello
-        model = genai.GenerativeModel('gemini-2.5-flash')
+        model = genai.GenerativeModel('gemini-flash-latest')
         
         # Prompt strutturato per ottenere analisi completa
         prompt = f"""Analizza questo testo italiano e fornisci una risposta JSON strutturata.
