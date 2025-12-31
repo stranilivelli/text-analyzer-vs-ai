@@ -469,7 +469,11 @@ textarea:focus {
     margin-bottom: var(--space-5);
 }
 
-.card h2,
+.card h2 {
+    margin-bottom: var(--space-5);
+    color: var(--gray-100);
+}
+
 .card h3 {
     margin-bottom: var(--space-5);
     color: var(--gray-900);
@@ -479,6 +483,10 @@ textarea:focus {
 .score-card {
     text-align: center;
     background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+    color: var(--white);
+}
+
+.score-card h3 {
     color: var(--white);
 }
 
